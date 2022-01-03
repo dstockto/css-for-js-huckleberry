@@ -9,4 +9,50 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+h1, h2, p {
+  padding-left: 1.5rem;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+/*Primary (green):*/
+
+/*hsl(160deg, 100%, 30%)*/
+/*Secondary (gold):*/
+
+/*hsl(45deg, 100%, 50%) (lighter)*/
+/*hsl(45deg, 100%, 40%) (darker)*/
+/*Grays:*/
+
+/*hsl(0deg, 0%, 0%) (black)*/
+/*hsl(0deg, 0%, 10%) (very dark)*/
+/*hsl(0deg, 0%, 30%) (dark)*/
+/*hsl(0deg, 0%, 40%) (medium)*/
+/*hsl(0deg, 0%, 60%) (light)*/
+/*hsl(0deg, 0%, 100%) (white)*/
+
+.max-width-wrapper {
+
+}
+
+header {
+  border-bottom: .25rem solid hsl(0deg, 0%, 40%);
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+h2.indented-heading {
+  width: 100%;
+  margin-left: -20px;
+  padding-left: 40px;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: .25rem solid hsl(45deg, 100%, 40%);
+}
+
+main {
+  border-top: 3rem solid hsl(0deg, 0%, 60%);
+  border-bottom: .25rem solid hsl(0deg, 0%, 40%);
+}
